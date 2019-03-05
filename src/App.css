@@ -4,7 +4,7 @@
 
 div.navbar {
   float: left;
-  width: 100ww;
+  width: 100vw;
   height: 10vh;
   background: orangered;
   color: white;
@@ -13,15 +13,14 @@ div.navbar {
 
 .sidebar {
   float: left;
-  width: 28%;
+  width: 30vw;
   height: 90vh;
   background: green;
   color: white;
-  border-right: 2px solid white;
 }
 
 .main-content {
-  width: 71%;
+  width: 70vw;
   float: left;
   height: 90vh;
   background: lightgray;
