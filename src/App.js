@@ -1,18 +1,24 @@
 import React, { Component } from 'react';
+import Images from './components/Images';
 import './App.css';
+
+let images = [
+  { title: 'Me', id: 1 },
+  { title: 'You', id: 2 }
+]
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <div className ="navbar">
-          <p>Nav bar</p>
+          {/* <Navbar /> */}
         </div>
         <div className="sidebar">
-          <p>side bar</p>
+          <Images images={images}/>
         </div>
         <div className="main-content">
-          <p>main content</p>
+          {/* <Image /> */}
         </div>
       </div>
     );
